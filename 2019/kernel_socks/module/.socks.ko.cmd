@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/r2ctf/v1/socks.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /mnt/hgfs/r2ctf/v1/socks.ko /mnt/hgfs/r2ctf/v1/socks.o /mnt/hgfs/r2ctf/v1/socks.mod.o ;  true
