@@ -1,0 +1,7 @@
+*.o
+*.exe
+*.pyc
+*.pyo
+flag.h
+genflag
+test

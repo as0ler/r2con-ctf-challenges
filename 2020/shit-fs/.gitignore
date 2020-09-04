@@ -1,0 +1,8 @@
+*.o
+*.pyc
+*.pyo
+shit-fs
+*.sfs
+tmp/
+password.txt
+shit-fs_patched
