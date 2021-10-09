@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController r:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "s.length">
+            </PersistentString>
+            <PersistentString
+               value = "[self r:@&quot;o1yk&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController p:withIndex:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "hashes[i]">
+            </PersistentString>
+            <PersistentString
+               value = "![[[self m:ww] lowercaseString] isEqualToString:hashes[i]]">
+            </PersistentString>
+            <PersistentString
+               value = "[[self m:ww] lowercaseString]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController w:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int) buffer[i] % 25">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController checkFlag:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(7 &lt;&lt; 3 &gt;&gt; 1 &lt;&lt; 4 &gt;&gt; 1 &gt;&gt; 2 &gt;&gt; 3)  &lt;&lt; 2 &lt;&lt; 1">
+            </PersistentString>
+            <PersistentString
+               value = "[@&quot;fOO&quot; isEqualToString:[[self w:[flag substringWithRange:NSMakeRange(11, 3)]] substringWithRange:NSMakeRange(0,2)]]">
+            </PersistentString>
+            <PersistentString
+               value = "[self z]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

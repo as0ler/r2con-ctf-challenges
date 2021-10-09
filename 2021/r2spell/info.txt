@@ -1,0 +1,4 @@
+Title: r2spell
+Description: You are walking in the woods when you suddenly find two witches. If you can do some magic, they might let you join them!
+Flag: r2ctf{L3t_tH3_r2M4g1c_b3g1N!}
+Dificultat: Medium

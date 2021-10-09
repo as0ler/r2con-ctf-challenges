@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDW-1Q-pex">
+                                <rect key="frame" x="135" y="730" width="144" height="96"/>
+                                <accessibility key="accessibilityConfiguration" identifier="btnInvoke"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LDW-1Q-pex" secondAttribute="height" multiplier="3:2" id="PvP-8Q-ug9"/>
+                                </constraints>
+                                <state key="normal" title="Invoke"/>
+                                <connections>
+                                    <action selector="invoke:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hND-I1-O9j"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Say the magic words to get the evil secret:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hz5-re-eRv">
+                                <rect key="frame" x="46" y="138" width="323" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="lblTitle"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hz5-re-eRv" secondAttribute="height" multiplier="323:21" id="f1w-Jy-xSM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <color key="highlightedColor" systemColor="systemBackgroundColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZkA-v6-nxW">
+                                <rect key="frame" x="46" y="206" width="323" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="txtFlag"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="pngwing.com.png" translatesAutoresizingMaskIntoConstraints="NO" id="OHC-4g-CEh">
+                                <rect key="frame" x="9" y="317" width="397" height="262"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="OHC-4g-CEh" firstAttribute="top" secondItem="ZkA-v6-nxW" secondAttribute="bottom" constant="77" id="4s4-2H-tRC"/>
+                            <constraint firstItem="LDW-1Q-pex" firstAttribute="top" secondItem="OHC-4g-CEh" secondAttribute="bottom" constant="151" id="8Qk-MK-qWT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LDW-1Q-pex" secondAttribute="bottom" constant="36" id="8lO-2U-lu8"/>
+                            <constraint firstItem="OHC-4g-CEh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="9" id="Ac4-JY-cWu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LDW-1Q-pex" secondAttribute="bottom" constant="36" id="GEx-fu-6IE"/>
+                            <constraint firstItem="ZkA-v6-nxW" firstAttribute="top" secondItem="hz5-re-eRv" secondAttribute="bottom" constant="47" id="QI7-Sy-esV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZkA-v6-nxW" secondAttribute="trailing" constant="45" id="SMj-Q2-0uF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OHC-4g-CEh" secondAttribute="trailing" constant="8" id="bWf-5T-jfl"/>
+                            <constraint firstItem="hz5-re-eRv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="o95-aH-bVh"/>
+                            <constraint firstItem="LDW-1Q-pex" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qmK-Rb-bSl"/>
+                            <constraint firstItem="LDW-1Q-pex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="vmp-es-V4G"/>
+                            <constraint firstItem="hz5-re-eRv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="wKj-Er-77D"/>
+                            <constraint firstItem="ZkA-v6-nxW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="xwF-wn-zlG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtFlag" destination="ZkA-v6-nxW" id="ne3-Hv-sUT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-184.05797101449278" y="53.571428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pngwing.com.png" width="512" height="512"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
